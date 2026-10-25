@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cineflix — a Netflix-inspired movie and TV streaming experience with search, profiles, My List and local accounts.">
+  <meta name="theme-color" content="#000000">
+  <title>Cineflix — Unlimited movies, TV shows and more</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="landing-page" data-page="landing" id="top">
+  <div class="landing-collage" aria-hidden="true"></div>
+  <div class="landing-shade" aria-hidden="true"></div>
+
+  <header class="site-nav">
+    <a class="brand-word brand-word--lg" href="index.html" aria-label="Cineflix home">CINEFLIX</a>
+    <div class="site-nav__right">
+      <a class="btn-cf btn-cf--ghost" href="login.html" id="landingSignIn">Sign In</a>
+    </div>
+  </header>
+
+  <main class="landing-main">
+    <section class="landing-hero" aria-labelledby="landingTitle">
+      <div class="landing-hero__inner">
+        <span class="eyebrow">Stories that stay with you</span>
+        <h1 id="landingTitle">Unlimited movies,<span>TV shows and more</span></h1>
+        <p class="landing-hero__sub">Big-screen thrills, award-winning drama and the stories everyone is talking about — all in one place.</p>
+        <p class="landing-hero__price">Starts at Rs 250. Cancel anytime.</p>
+        <p class="landing-hero__prompt">Ready to watch? Enter your email to create your membership.</p>
+
+        <form class="email-cta" id="landingEmailForm" novalidate>
+          <div class="email-cta__shell">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m3.5 6.5 8.5 6 8.5-6"></path>
+            </svg>
+            <label class="sr-only" for="landingEmail">Email address</label>
+            <input id="landingEmail" name="email" type="email" placeholder="Email address" autocomplete="email" inputmode="email">
+          </div>
+          <button class="btn-cf" type="submit">
+            Get Started
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+          </button>
+        </form>
+        <p class="landing-hero__note">Already a member? <a href="login.html">Sign in</a> &nbsp;·&nbsp; <a href="signup.html">Create an account</a></p>
+
+        <div class="hero-chips" aria-label="Membership benefits">
+          <span class="hero-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m5 12 4.2 4.2L19 6.5"></path></svg>
+            No ads
+          </span>
+          <span class="hero-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m5 12 4.2 4.2L19 6.5"></path></svg>
+            Watch anywhere
+          </span>
+          <span class="hero-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m5 12 4.2 4.2L19 6.5"></path></svg>
+            Cancel anytime
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="landing-content">
+    <section class="landing-section" aria-labelledby="reasonsTitle">
+      <div class="section-heading">
+        <div>
+          <h2 id="reasonsTitle">More reasons to join</h2>
+          <p>Everything you need for a perfect movie night.</p>
+        </div>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="13" rx="2"></rect><path d="M8 21h8M12 18v3"></path><path d="m10 9 4.5 2.5L10 14z"></path></svg>
+          </div>
+          <h3>Enjoy on your TV</h3>
+          <p>Watch on smart TVs, consoles, streaming sticks, Blu-ray players and more.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M4 18v2h16v-2"></path></svg>
+          </div>
+          <h3>Download to watch offline</h3>
+          <p>Save your favourites easily and always have something to watch.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.7 2.5 4 5.5 4 9s-1.3 6.5-4 9c-2.7-2.5-4-5.5-4-9s1.3-6.5 4-9Z"></path></svg>
+          </div>
+          <h3>Watch everywhere</h3>
+          <p>Stream unlimited films and TV programmes on your phone, tablet, laptop and TV.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="8" r="3"></circle><circle cx="17" cy="10" r="2.3"></circle><path d="M3 19c.4-4 2.5-6 6-6s5.6 2 6 6"></path><path d="M14.5 19c.2-2 .9-3.5 2.2-4.3 2.2.4 3.6 2 3.8 4.3"></path></svg>
+          </div>
+          <h3>Create profiles for kids</h3>
+          <p>Send children on adventures with their favourite characters in a space made just for them.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="landing-section" aria-labelledby="trendingTitle">
+      <div class="section-heading">
+        <div>
+          <h2 id="trendingTitle">Trending this week</h2>
+          <p>A taste of what's waiting inside.</p>
+        </div>
+        <a class="section-heading__link" href="signup.html">Join to watch &rarr;</a>
+      </div>
+      <div class="trending-strip" data-trending-strip>
+        <noscript><p style="color:#b3b3b3;">Enable JavaScript to see this week's trending titles.</p></noscript>
+      </div>
+    </section>
+
+    <section class="landing-section" id="faq" aria-labelledby="faqTitle">
+      <div class="faq-wrap">
+        <div class="section-heading">
+          <div>
+            <h2 id="faqTitle">Frequently asked questions</h2>
+            <p>Everything you need to know before you press play.</p>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>What is Cineflix?</summary>
+            <div class="faq-item__answer">Cineflix is a Netflix-inspired streaming demo built with HTML, CSS, JavaScript and Bootstrap. It brings together a curated film and TV catalogue, live OMDb search and local accounts — no real subscription required.</div>
+          </details>
+          <details class="faq-item">
+            <summary>How much does Cineflix cost?</summary>
+            <div class="faq-item__answer">Nothing. This is a portfolio and learning project. The sign-up flow and profiles are powered entirely by your browser's local storage.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Where can I watch?</summary>
+            <div class="faq-item__answer">Anywhere you have a modern browser. Your account, profile and My List stay on this device because the demo does not use a backend.</div>
+          </details>
+          <details class="faq-item">
+            <summary>How do I reset my password?</summary>
+            <div class="faq-item__answer">Choose “Forgot password?” on the sign-in screen, confirm the email address for your local account, then set a new password. Everything is handled on this device.</div>
+          </details>
+          <details class="faq-item">
+            <summary>What can I watch?</summary>
+            <div class="faq-item__answer">Explore a hand-picked collection of popular films and series — from Dune and Oppenheimer to Stranger Things and Breaking Bad. Use the search bar to explore even more titles through OMDb.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Is Cineflix good for kids?</summary>
+            <div class="faq-item__answer">The catalogue is a general-audience demo, but you can create a separate profile and add only the titles you want to your own My List.</div>
+          </details>
+        </div>
+        <p class="faq-note">This is a Netflix-inspired educational demo. Poster artwork belongs to the respective studios and is used for demonstration only.</p>
+      </div>
+    </section>
+
+    <footer class="landing-footer">
+      <span class="landing-footer__brand">CINEFLIX</span>
+      <p style="margin:0 0 4px;">Questions? <a class="text-link text-link--muted" href="mailto:hello@cineflix.demo">hello@cineflix.demo</a></p>
+      <div class="landing-footer__grid">
+        <a href="#faq">FAQ</a>
+        <a href="#faq">Help Centre</a>
+        <a href="login.html">Account</a>
+        <a href="signup.html">Join Cineflix</a>
+        <a href="#faq" data-demo-link>Media Centre</a>
+        <a href="#faq" data-demo-link>Investor Relations</a>
+        <a href="#faq" data-demo-link>Privacy</a>
+        <a href="#faq" data-demo-link>Terms of Use</a>
+      </div>
+      <div class="landing-footer__bottom">
+        <span>&copy; <span data-year>2026</span> Cineflix Demo. Built for learning.</span>
+        <span>Poster credits: Wikipedia / Wikimedia &amp; TVMaze</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+  <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>

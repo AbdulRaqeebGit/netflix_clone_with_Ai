@@ -1,0 +1,236 @@
+{
+  "dune-part-two": {
+    "page": "Dune: Part Two",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 384
+  },
+  "dune-2021": {
+    "page": "Dune (2021 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 384
+  },
+  "oppenheimer": {
+    "page": "Oppenheimer (film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 384
+  },
+  "interstellar": {
+    "page": "Interstellar (film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "inception": {
+    "page": "Inception",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "dark-knight": {
+    "page": "The Dark Knight",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 383
+  },
+  "the-batman": {
+    "page": "The Batman (film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Batman_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 236,
+    "h": 350
+  },
+  "spider-verse": {
+    "page": "Spider-Man: Across the Spider-Verse",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 385
+  },
+  "john-wick-4": {
+    "page": "John Wick: Chapter 4",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/John_Wick_-_Chapter_4_promotional_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 383
+  },
+  "top-gun-maverick": {
+    "page": "Top Gun: Maverick",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 261,
+    "h": 381
+  },
+  "everything-everywhere": {
+    "page": "Everything Everywhere All at Once",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 250,
+    "h": 370
+  },
+  "parasite": {
+    "page": "Parasite (2019 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 265,
+    "h": 378
+  },
+  "joker": {
+    "page": "Joker (2019 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Joker_%282019_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 384
+  },
+  "avengers-endgame": {
+    "page": "Avengers: Endgame",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "mad-max-fury-road": {
+    "page": "Mad Max: Fury Road",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 264,
+    "h": 378
+  },
+  "whiplash": {
+    "page": "Whiplash (2014 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "la-la-land": {
+    "page": "La La Land",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 260,
+    "h": 385
+  },
+  "blade-runner-2049": {
+    "page": "Blade Runner 2049",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "wolf-wall-street": {
+    "page": "The Wolf of Wall Street (2013 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 265,
+    "h": 393
+  },
+  "django": {
+    "page": "Django Unchained",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "shutter-island": {
+    "page": "Shutter Island (film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 326
+  },
+  "the-prestige": {
+    "page": "The Prestige",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 258,
+    "h": 382
+  },
+  "shawshank": {
+    "page": "The Shawshank Redemption",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 248,
+    "h": 372
+  },
+  "pulp-fiction": {
+    "page": "Pulp Fiction",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 261,
+    "h": 385
+  },
+  "the-matrix": {
+    "page": "The Matrix",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 260,
+    "h": 376
+  },
+  "fight-club": {
+    "page": "Fight Club",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 327
+  },
+  "gladiator": {
+    "page": "Gladiator (2000 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 385
+  },
+  "lotr-fellowship": {
+    "page": "The Lord of the Rings: The Fellowship of the Ring",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 218,
+    "h": 326
+  },
+  "titanic": {
+    "page": "Titanic (1997 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 259,
+    "h": 386
+  },
+  "se7en": {
+    "page": "Seven (1995 film)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 220,
+    "h": 344
+  },
+  "stranger-things": {
+    "page": "Stranger Things",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 728,
+    "h": 400
+  },
+  "breaking-bad": {
+    "page": "Breaking Bad",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/960px-Breaking_Bad_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "w": 600,
+    "h": 358
+  },
+  "the-witcher": {
+    "page": "The Witcher (TV series)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/05/The_Witcher_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 510,
+    "h": 195
+  },
+  "the-crown": {
+    "page": "The Crown (TV series)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/18/The_Crown_Title_Card.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 400,
+    "h": 199
+  },
+  "squid-game": {
+    "page": "Squid Game",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Squid_Game_2021_vector_logo_english.svg/960px-Squid_Game_2021_vector_logo_english.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "w": 600,
+    "h": 311
+  },
+  "peaky-blinders": {
+    "page": "Peaky Blinders (TV series)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Peaky_Blinders_titlecard.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 350,
+    "h": 197
+  },
+  "succession": {
+    "page": "Succession (TV series)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/SuccessionTV.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 360,
+    "h": 203
+  },
+  "queens-gambit": {
+    "page": "The Queen's Gambit (miniseries)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/12/The_Queen%27s_Gambit_%28miniseries%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 250,
+    "h": 370
+  },
+  "sherlock": {
+    "page": "Sherlock (TV series)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Sherlock_titlecard.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "w": 421,
+    "h": 237
+  }
+}

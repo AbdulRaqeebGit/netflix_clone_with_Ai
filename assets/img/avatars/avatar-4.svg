@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#9f1239"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="28" fill="url(#bg)"/>
+  <circle cx="210" cy="52" r="42" fill="#fff" opacity=".1"/>
+  <circle cx="35" cy="220" r="46" fill="#fff" opacity=".08"/>
+  <path d="M24 256c6-50 46-78 104-78s98 28 104 78z" fill="url(#shirt)"/>
+  <path d="M110 163h36v32c0 15-36 15-36 0z" fill="#d18b5c"/>
+  <ellipse cx="128" cy="112" rx="52" ry="59" fill="#e8a574"/>
+  <path d="M72 110c-4-40 19-68 58-68 36 0 59 26 55 67-6-9-13-16-22-21-15 14-46 22-72 15-7 8-13 10-19 7z" fill="#3f2117"/>
+  <path d="M76 90c8-28 27-40 51-40 27 0 45 16 52 43-11-8-24-13-40-13-22 0-43 5-63 10z" fill="#5a2b1d"/>
+  <path d="M75 102c-8 3-12 12-10 20 2 8 7 13 13 12zM181 101c8 2 11 11 9 20-2 8-7 13-13 12z" fill="#e8a574"/>
+  <ellipse cx="105" cy="117" rx="5.5" ry="7" fill="#342016"/>
+  <ellipse cx="151" cy="117" rx="5.5" ry="7" fill="#342016"/>
+  <path d="M92 104c8-4 17-4 24 0M140 104c8-4 17-4 24 0" fill="none" stroke="#4a291d" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#b86343" opacity=".8">
+    <circle cx="92" cy="136" r="2.5"/><circle cx="100" cy="143" r="2"/><circle cx="158" cy="137" r="2.5"/><circle cx="164" cy="145" r="2"/>
+  </g>
+  <path d="M126 120c-2 8-1 14 4 17" fill="none" stroke="#c47b50" stroke-width="4" stroke-linecap="round"/>
+  <path d="M108 149c12 10 29 9 41-2" fill="none" stroke="#8a4037" stroke-width="5" stroke-linecap="round"/>
+  <path d="M100 165c8 12 48 12 56 0" fill="none" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+</svg>

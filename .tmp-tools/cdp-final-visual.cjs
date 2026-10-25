@@ -1,0 +1,16 @@
+﻿const fs=require('fs'),sleep=ms=>new Promise(r=>setTimeout(r,ms));
+class C{constructor(ws){this.ws=ws;this.id=0;this.p=new Map();this.events=[]}static async go(){const ts=await (await fetch('http://127.0.0.1:9222/json')).json();const page=ts.find(t=>t.type==='page');const ws=new WebSocket(page.webSocketDebuggerUrl);await new Promise((r,j)=>{ws.onopen=r;ws.onerror=j});const c=new C(ws);ws.onmessage=e=>{const m=JSON.parse(e.data);if(m.id&&c.p.has(m.id)){const q=c.p.get(m.id);c.p.delete(m.id);m.error?q.reject(new Error(m.error.message)):q.resolve(m.result)}else if(m.method)c.events.push(m)};return c}send(m,p={}){const i=++this.id;return new Promise((res,rej)=>{this.p.set(i,{resolve:res,reject:rej});this.ws.send(JSON.stringify({id:i,method:m,params:p}))})}async ev(x){const r=await this.send('Runtime.evaluate',{expression:x,returnByValue:true,awaitPromise:true,userGesture:true});if(r.exceptionDetails)throw new Error(r.exceptionDetails.exception?.description||r.exceptionDetails.text);return r.result.value}async shot(f){const r=await this.send('Page.captureScreenshot',{format:'png'});fs.writeFileSync(f,Buffer.from(r.data,'base64'));console.log('shot',f)}}
+(async()=>{const c=await C.go();await c.send('Page.enable');await c.send('Runtime.enable');await c.send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});await c.send('Page.navigate',{url:'http://127.0.0.1:8080/browse.html'});await sleep(1800);
+console.log('route',await c.ev('location.href'),'user',await c.ev("NFStore.currentUser().name"));
+console.log('top10 scrollLeft',await c.ev("document.querySelector('.row-track').scrollLeft"));
+await c.ev('window.scrollTo(0,600)');await sleep(500);await c.shot('test-artifacts/final-top10-desktop.png');
+console.log('rects',JSON.stringify(await c.ev(`(()=>{const i=document.querySelector('.top10-item'),card=i.querySelector('.nf-card'),rank=i.querySelector('.top10-rank');return {item:i.getBoundingClientRect().toJSON(),card:card.getBoundingClientRect().toJSON(),rank:rank.getBoundingClientRect().toJSON()}})()`)));
+await c.ev("document.querySelectorAll('.nav-link[data-view-link=list]')[0].click()");await sleep(500);await c.shot('test-artifacts/final-my-list.png');
+await c.ev("document.querySelector('#searchToggle').click();(()=>{const q=document.querySelector('#searchInput');q.value='Dune';q.dispatchEvent(new Event('input',{bubbles:true}));})()");await sleep(2200);await c.shot('test-artifacts/final-search.png');
+await c.ev("document.querySelector('#searchClose').click();window.scrollTo(0,0)");
+await c.send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true,screenWidth:390,screenHeight:844});
+await c.send('Page.navigate',{url:'http://127.0.0.1:8080/browse.html'});await sleep(1800);
+console.log('mobile top10 scrollLeft',await c.ev("document.querySelector('.row-track').scrollLeft"));
+await c.ev('window.scrollTo(0,660)');await sleep(500);await c.shot('test-artifacts/final-mobile-top10.png');
+await c.ev("document.querySelectorAll('.nav-link[data-view-link=movies]')[1].click()");await sleep(500);await c.shot('test-artifacts/final-mobile-movies.png');
+console.log('ERRORS',JSON.stringify(c.events.filter(e=>e.method==='Runtime.exceptionThrown'),null,2).slice(0,2000));c.ws.close();})().catch(e=>{console.error(e);process.exit(1)});

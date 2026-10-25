@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sign in to your Cineflix account.">
+  <meta name="theme-color" content="#000000">
+  <title>Sign In — Cineflix</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="auth-page" data-page="login">
+  <div class="auth-collage" aria-hidden="true"></div>
+  <div class="auth-shade" aria-hidden="true"></div>
+
+  <header class="site-nav site-nav--auth">
+    <a class="brand-word" href="index.html" aria-label="Cineflix home">CINEFLIX</a>
+    <div class="site-nav__right">
+      <a class="site-nav__back" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+        <span>Back to home</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="auth-main">
+    <section class="auth-card" aria-labelledby="loginTitle">
+      <span class="auth-card__eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v18M3 12h18"></path></svg>
+        Welcome back
+      </span>
+      <h1 id="loginTitle">Sign In</h1>
+      <p class="auth-card__sub">Pick up where you left off. Your watchlist is waiting.</p>
+
+      <div class="auth-alert auth-alert--success" id="sessionNotice" role="status"></div>
+      <div class="auth-alert" id="loginAlert" role="alert"></div>
+
+      <form class="auth-form" id="loginForm" novalidate>
+        <div class="nf-field">
+          <input id="loginEmail" name="email" type="email" placeholder=" " autocomplete="email" inputmode="email" required>
+          <label for="loginEmail">Email address</label>
+        </div>
+
+        <div class="nf-field">
+          <input id="loginPassword" name="password" type="password" placeholder=" " autocomplete="current-password" required>
+          <label for="loginPassword">Password</label>
+          <button class="nf-field__toggle" type="button" data-toggle-password="#loginPassword" aria-label="Show password">
+            <svg data-eye-open viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path><circle cx="12" cy="12" r="2.6"></circle></svg>
+            <svg data-eye-off class="hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m3 3 18 18"></path><path d="M10.6 6.2A10.8 10.8 0 0 1 12 6c6 0 9.5 6 9.5 6a17 17 0 0 1-3 3.6M6.6 6.7C4 8.4 2.5 12 2.5 12s3.5 6 9.5 6c1.4 0 2.7-.3 3.8-.8"></path><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"></path></svg>
+          </button>
+        </div>
+
+        <div class="auth-row">
+          <label class="checkbox-cf">
+            <input id="rememberMe" type="checkbox" checked>
+            Remember me
+          </label>
+          <a class="auth-link" href="forgot-password.html">Forgot password?</a>
+        </div>
+
+        <button class="btn-cf btn-cf--wide auth-submit" type="submit">Sign In</button>
+      </form>
+
+      <div class="auth-divider">or try the demo</div>
+
+      <div class="demo-box">
+        <div class="demo-box__text">
+          <strong>Demo account</strong>
+          <span data-demo-email>demo@cineflix.com</span>
+          <span>Password: <span data-demo-password>Demo@123</span></span>
+        </div>
+        <button class="btn-cf btn-cf--outline" type="button" data-demo-fill>Use demo</button>
+      </div>
+
+      <p class="auth-alt">New to Cineflix? <a href="signup.html">Sign up now.</a></p>
+      <p class="auth-fineprint">This demo stores accounts in your browser's local storage. Never reuse a real password.</p>
+    </section>
+  </main>
+
+  <div class="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+  <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>
