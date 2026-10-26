@@ -1,1 +1,17 @@
-.tmp-chrome-cdp/ 
+# --- OS / editor noise ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# --- Local tooling, throwaway browser profiles and test output ---
+.tmp-*/
+.trash-*/
+test-artifacts/
+*.log
+
+# --- Python (tools/optimize-images.py) ---
+__pycache__/
+*.pyc
